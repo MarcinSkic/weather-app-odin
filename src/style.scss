@@ -4,3 +4,24 @@ body {
     background-size: cover;
     background-position: right;
 }
+
+p {
+    margin: 0;
+}
+
+.unitSystem {
+    width: 100px;
+    height: 60px;
+    background-attachment: local;
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-color: transparent;
+    border: none;
+}
+
+.errors {
+    color: rgb(200, 0, 0);
+    background-color: #0051ff;
+    font-weight: 700;
+}

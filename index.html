@@ -8,28 +8,29 @@
         <script type="module" src="/src/main.ts" defer></script>
     </head>
     <body>
-        <div id="app">
+        <main id="app">
             <h1>London</h1>
+            <button class="unitSystem"></button>
             <div>
-                <div class="temperature">
+                <div class="stat temperature">
                     <img src="" alt="thermometer" />
                     <p>35.5 C</p>
                 </div>
-                <div class="condition">
+                <div class="stat condition">
                     <img src="" alt="#" />
                     <p>Partly cloudy</p>
                 </div>
-                <div class="humidity">
+                <div class="stat humidity">
                     <img src="" alt="humidity" />
                     <p>52%</p>
                 </div>
-                <div class="wind">
+                <div class="stat wind">
                     <img src="" alt="wind" />
                     <p>6.1 kph</p>
                 </div>
             </div>
             <form action="#">
-                <input type="search" name="location" id="location" />
+                <input type="search" name="location" id="location" required />
                 <button type="submit">
                     <svg viewBox="0 0 24 24" width="16px">
                         <path d="M0 0h24v24H0z" fill="none" />
@@ -38,7 +39,8 @@
                         />
                     </svg>
                 </button>
+                <div class="errors"></div>
             </form>
-        </div>
+        </main>
     </body>
 </html>
