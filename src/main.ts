@@ -19,7 +19,7 @@ const condition = document.querySelector<HTMLDivElement>(".stat.condition")!;
 const humidity = document.querySelector<HTMLDivElement>(".stat.humidity")!;
 const wind = document.querySelector<HTMLDivElement>(".stat.wind")!;
 
-let unitSystem: UnitsSystem = UnitsSystem.Imperial;
+let unitSystem: UnitsSystem = UnitsSystem.Metric;
 let query = "auto:ip";
 let weatherData: {
     temperature: { c: any; f: any };
