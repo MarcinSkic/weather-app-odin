@@ -46,7 +46,7 @@ let a = 0,
 async function p(n) {
     try {
         const r = await fetch(
-                `http://api.weatherapi.com/v1/current.json?key=048e2ea81af849ab80c100307230304&q=${n}`
+                `https://api.weatherapi.com/v1/current.json?key=048e2ea81af849ab80c100307230304&q=${n}`
             )
                 .then((u) => u.json())
                 .then((u) => {
