@@ -80,7 +80,7 @@ form {
     input {
         font-size: 2.5rem;
 
-        width: 700px;
+        width: min(70%, 700px);
         height: 100%;
         padding: 20px;
 
